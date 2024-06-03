@@ -1,0 +1,271 @@
+/**Here we have our color palete for our landing page*/
+:root{
+
+    /**Color palete*/
+    --text-color:#F5F7F8;
+    --message-box-color:#F4CE14;
+    --navBar-color:#495E57;
+    --footer-color:#495E57;
+
+    /**Text sizes*/
+    --title-size: 3.5rem;
+    --subtitle-size: 2rem;
+    --special-size: 1.5rem;
+    --normal-size: 1.2rem;
+
+    
+
+    /**Images for page:*/
+    --example-man:url(./assets/images/example_man.png);
+    --background-image-1:url(./assets/images/Background_image-1.jpg);
+    --background-image-2:url(./assets/images/Background_image-2.jpg);
+    --liquor-store-image:url(./assets/images/liquor_store.jpg);
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#menu{
+
+    width: 100%;
+    height: 10%;
+
+    background-color: var(--navBar-color);
+
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 3rem;
+
+}
+
+.access_link{
+
+    text-decoration: none;
+    font-size: var(--special-size);
+    color:var(--text-color);
+
+}
+
+
+#navbar_logo{
+
+    font-size: var(--title-size);
+    text-decoration: none;
+    color:var(--text-color);
+
+}
+
+#man_image{
+
+    width: 45%;
+    height: 100%;
+
+}
+
+
+#mother_box{
+
+    width: 75%;
+    height:fit-content;
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+
+.information_section{
+
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+
+}
+
+#section_1{
+
+    background-image: var(--background-image-1);
+
+
+}
+
+#section_2{
+
+    background-image: var(--background-image-2);
+
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+
+}
+
+.information_box{
+
+    color:var(--text-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#information_box-1{
+
+    align-self: start;
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+    background: var(--message-box-color);
+
+    width: 35%;
+    height: 90%;
+
+    margin-right: 10rem;
+
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(0, 0, 0);
+
+}
+
+.title{
+
+    font-size: var(--title-size);
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.text{
+
+    font-size: var(--normal-size);
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
+#store_image{
+
+    width: 40%;
+    height: 35%;
+
+    border:solid var(--message-box-color) 1rem;
+
+    margin-top: 5rem;
+    margin-left: 1rem;
+
+}
+
+#information_box-2{
+
+    width: 55%;
+
+    height: fit-content;
+
+    background-color: var(--message-box-color);
+
+    margin-right: 1.5rem;
+
+    box-shadow: 0.3rem 0.3rem 0.5rem rgb(0, 0, 0);
+
+
+}
+
+#middle-section{
+
+    margin-top: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color:var(--text-color);
+
+    font-size: var(--subtitle-size);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    width: 100%;
+
+    height: 50px;
+
+    background-color: var(--footer-color);
+
+}
+
+#page_footer{
+
+    width: 100%;
+    height: 7rem;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    background-color: var(--footer-color);
+
+}
+
+
+.contact_option{
+
+    color:var(--text-color);
+
+    text-decoration: none;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: var(--normal-size);
+
+
+}
+
+
+#contacts_section{
+
+    display: flex;
+
+    margin-right: 1rem;
+
+    gap:1rem;
+
+}
+
+
+.extra_option{
+
+    color:var(--text-color);
+
+    text-decoration: none;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: var(--special-size);
+
+}
+
+#extras_section{
+
+    margin-right: 23rem;
+
+    display: flex;
+    gap:1rem;
+
+}
